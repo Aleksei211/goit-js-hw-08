@@ -3,11 +3,10 @@ import { galleryItems } from './gallery-items';
 // Change code below this line
 
 console.log(galleryItems);
-//import '../css/01-gallery.css'
-//import '../css/common.css'
+import  '../css/01-gallery.css'
+import  '../css/common.css'
 import "simplelightbox/dist/simple-lightbox.min.css";
 import SimpleLightbox from "simplelightbox";
-//import 'lazysizes';
 import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 
 
