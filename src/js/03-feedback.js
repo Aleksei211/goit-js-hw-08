@@ -16,12 +16,12 @@ savedInform();
  function onFormSubmit(evt) {
      evt.preventDefault();
 
-        // console.log('email:', localStorage.getItem('.feedback-form'),
-        //     'message:', localStorage.getItem(STORAGE_KEY)  
-        // )
+        //  console.log('email:', localStorage.getItem('.feedback-form'),
+        //      'message:', localStorage.getItem(STORAGE_KEY)  
+        //  )
+     console.log(savedInform())
      evt.currentTarget.reset();
      localStorage.removeItem(STORAGE_KEY)
-     localStorage.removeItem('feedback-form')
  }
 
 function onEmailInput(evt) {
@@ -44,4 +44,3 @@ function savedInform() {
     }
     return {email:{savedEmail}, message:{savedMessage}}
 }
-console.log(savedInform())
