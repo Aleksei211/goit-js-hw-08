@@ -42,5 +42,5 @@ function savedInform() {
         refs.textarea.value = savedMessage;
         refs.email.value = savedEmail;
     }
-    return {email:{savedEmail}, message:{savedMessage}}
+    return {email:savedEmail, message:savedMessage}
 }
