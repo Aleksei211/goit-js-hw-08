@@ -38,7 +38,7 @@ function onEmailInput(evt) {
 function savedInform() {
     const savedMessage = localStorage.getItem(STORAGE_KEY);
     const savedEmail = localStorage.getItem('.feedback-form') 
-    if (savedMessage && savedEmail) {
+    if (savedMessage || savedEmail) {
         refs.textarea.value = savedMessage;
         refs.email.value = savedEmail;
     }
